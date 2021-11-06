@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr-FR">
+<head>
+  <title>Page Dangereuse - mini projet</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <script text="text/javascript" src="dangerous.js"></script>
+</head>
+<body>
+<header class="danger">
+    <a href="../index.html" class="go-back"><span class="go-back-chev"><</span></a>
+    <h1>Page de Connexion Dangereuse</h1>
+</header>
+<main>
+  <div id="formContent" class="tile">
+    <h1 class="input">Entrez le password super secret de fou</h1>
+    <div class="input-content">
+        <input type="password" id="password" name="password" placeholder="password le plus secret ouais">
+        <button class="button-login" onclick="log()">Log In</button>
+        <div>
+            <div id="wrong-login" class="error"/>
+        </div>
+    </div>
+  </div> 
+</main>
+<footer>
+  <p>© Université de Lorraine</p>
+</footer>
+<div class="title"></div>
+</body>
+</html>

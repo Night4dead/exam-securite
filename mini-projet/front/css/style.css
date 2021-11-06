@@ -1,0 +1,130 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+}
+
+
+header {
+    margin:  0;
+    padding: 0;
+    background-color: #2d3436;
+}
+
+header h1 {
+    margin:  0;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.go-back {
+    position:absolute;
+    left: 50px;
+    top: 0px;
+    width: auto !important;
+    height: auto !important;
+    padding:20px;
+}
+
+
+.go-back:hover {
+    background-color: bisque;
+}
+
+.go-back-chev {
+    color: white;
+    font-size: 1.05rem;
+}
+
+header, footer {
+    text-align: center;
+}
+
+main {
+    margin-top:40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color:black;
+}
+
+.tile {
+    width: 30%;
+    height: auto;
+    background-color:lightgray;
+    text-align: center;
+}
+
+.tile > a > h1, .tile > h1 {
+    margin-top: 0;
+    padding:20px;
+    /* background-color: darkslategray; */
+    color: white;
+}
+
+.danger {
+    background-color: brown;
+}
+
+.safe {
+    background-color: darkgreen;
+}
+
+.input {
+    background-color: cadetblue;
+}
+
+.input-content {
+    height: 200px;
+}
+
+.tile-content {
+    height:auto;
+    padding: 0 20px 20px 20px;
+}
+
+.button-login {
+    width: 250px;
+    height: 50px;
+    font-size: 1.05rem;
+    background-color: cadetblue;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+input {
+    margin: 10px auto;
+    padding: 10px 0 5px 0;
+    width: 85%;
+    display: block;
+    border: none;
+    border-bottom: solid 1px #2980b9;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #3498db 4%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #3498db 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: #2980b9;
+}
+
+#formContent.shake {
+    animation: shake 0.25s infinite;
+}
+
+.error {
+    color: #ed566f;
+    font-weight: bold;
+    font-size: 12px;
+    display: none;
+}

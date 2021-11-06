@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  static-web:
+    build: front
+    ports:
+      - "8000:80"
+    links:
+      - app
+  app:
+    build: back
+    ports:
+      - "8080:8080"
