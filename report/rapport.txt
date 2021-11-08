@@ -73,9 +73,8 @@ Exercice 6 :
         - regarder dans l'onglet "Network"
         - cliquer sur la requête "connect"
         - regarder le "request payload"
-        - nous envoyons un objet composer de deux champs : user et password
         - nous allons essayer d'injecter du sql dans la requête
-        - entrer dans le champ login la chaine : " ' or user LIKE '%
-        - entrer dans le champ password la chaine : " ' or password LIKE '%
+        - entrer dans le champ login la chaine : " ' or '1' = '1
+        - entrer dans le champ password la chaine : " ' or '1' = '1
         - cliquer sur "se connecter"
         - vous êtes connecter
